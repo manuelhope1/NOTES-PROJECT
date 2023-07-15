@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Libre+Baskerville&family=Playfair+Display&family=Roboto+Slab:wght@800&display=swap");
+body {
+  background-color: black !important;
+}
+.bodyy {
+  min-height: 100vh;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.addline {
+  border-right: 1px dashed black;
+  min-height: 100vh;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disnotes {
+  min-height: 100vh;
+}
+
+.addbox {
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+}
+.add-sign {
+  font-size: 35px;
+  color: white;
+}
+
+.ntext {
+  margin: 40px 0;
+  margin-left: 30px;
+  font-family: "Roboto Slab", serif;
+}
+
+.cardd {
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+  margin-bottom: 10px;
+  min-height: 220px;
+  background-color: #b8f3ff;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+.closetab {
+  margin-top: 5px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+.ctbuti {
+  font-size: 20px;
+}
+
+.closetab i {
+  color: rgba(255, 0, 0, 0.824);
+}
+
+.notestab {
+  width: 100%;
+  min-height: 150px;
+}
+
+.dateinfo {
+  font-family: "Playfair Display", serif;
+}
+
+.editbt {
+  text-align: end;
+  width: 100%;
+}
+
+.editbt button {
+  margin-bottom: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #3772ff;
+}
+
+.editbt button i {
+  color: white;
+}
+
+.headd {
+  padding-top: 5px;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+.notesp {
+  font-family: "Crimson Text", serif;
+  margin-bottom: 0;
+}
+
+.addbut {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #225560;
+  color: white;
+  font-weight: 500;
+  font-family: "Libre Baskerville", serif;
+}
+
+.editbut {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #04030f;
+  color: white;
+  font-weight: 500;
+  font-family: "Libre Baskerville", serif;
+}
+
+.modall {
+  background-color: #56666b;
+}
+
+.modaltitle {
+  color: white !important;
+  font-family: "Roboto Slab", serif;
+}
+
+.edmodalhead {
+  background-color: #23395b !important;
+}
+
+@media (max-width: 767px) {
+  .addline {
+    padding: 30px 0;
+    min-height: 0;
+    border-bottom: 1px dashed black;
+    border-radius: 0;
+  }
+}
+
+.ava {
+  min-height: 70% !important;
+}
+.notnotes {
+  min-height: 50vh !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
